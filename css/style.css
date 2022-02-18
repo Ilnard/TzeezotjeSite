@@ -37,6 +37,7 @@ button {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 55px 0;
 
     position: absolute;
@@ -689,6 +690,9 @@ button {
     .service:last-child {
         margin-bottom: 0;
     }
+    .service__text {
+        width: auto;
+    }
     .service__text_right {
         margin-right: 0;
         margin-bottom: 50px;
@@ -807,5 +811,10 @@ button {
         font-size: 10px;
         width: 150px;
         line-height: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 200px;
     }
 }
